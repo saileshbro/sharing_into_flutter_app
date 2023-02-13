@@ -10,6 +10,7 @@ dependencies:
   cupertino_icons: ^1.0.5
   flutter:
     sdk: flutter
+  share_handler: ^0.0.16
 
 dev_dependencies:
   flutter_test:
