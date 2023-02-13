@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+  <share-target
+    android:targetClass="@{'np.com.saileshdahal.sharing'+@strings/app_id_suffix+'.dynamic_share_target'}">
+    <data android:mimeType="*/*" />
+    <category
+      android:name="@{'np.com.saileshdahal.sharing'+@strings/app_id_suffix+'.dynamic_share_target'}" />
+  </share-target>
+</shortcuts>

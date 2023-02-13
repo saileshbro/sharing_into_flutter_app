@@ -64,13 +64,16 @@ android {
     productFlavors {
         production {
             dimension 'default'
+            applicationIdSuffix ''
             resValue "string", "app_name", "SHARING"
+            resValue "string", "app_id_suffix", applicationIdSuffix
         }
         development {
             dimension 'default'
             applicationIdSuffix '.dev'
             versionNameSuffix '.dev'
             resValue "string", "app_name", "SHARING.DEV"
+            resValue "string", "app_id_suffix", applicationIdSuffix
         }
 
         staging {
@@ -78,6 +81,7 @@ android {
             applicationIdSuffix '.stg'
             versionNameSuffix '.stg'
             resValue "string", "app_name", "SHARING.STG"
+            resValue "string", "app_id_suffix", applicationIdSuffix
         }
     }
 }
