@@ -4,13 +4,9 @@
 
 This is a flutter app demonstrating how to share media from other apps into your flutter app.
 
-<br>
-
 ## Blog Post 📕
 
 > [**`🤳 Effortless Sharing: From external apps to your Flutter app in no time`**](https://saileshdahal.com.np/sharing-media-from-external-to-flutter-app)
-
-<br>
 
 ## 📷 Demonstration
 
