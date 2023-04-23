@@ -2,121 +2,21 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "DEV | DEBUG",
+      "name": "sharing_into_flutter_app",
       "request": "launch",
-      "type": "dart",
-      "program": "lib/main_development.dart",
-      "args": [
-        "--flavor",
-        "development",
-        "--target",
-        "lib/main_development.dart"
-      ],
-      "flutterMode": "debug"
+      "type": "dart"
     },
     {
-      "name": "DEV | RELEASE",
+      "name": "sharing_into_flutter_app (profile mode)",
       "request": "launch",
       "type": "dart",
-      "program": "lib/main_development.dart",
-      "args": [
-        "--flavor",
-        "development",
-        "--target",
-        "lib/main_development.dart"
-      ],
-      "flutterMode": "release"
-    },
-    {
-      "name": "DEV | PROFILE",
-      "request": "launch",
-      "type": "dart",
-      "program": "lib/main_development.dart",
-      "args": [
-        "--flavor",
-        "development",
-        "--target",
-        "lib/main_development.dart"
-      ],
       "flutterMode": "profile"
     },
     {
-      "name": "STG | DEBUG",
+      "name": "sharing_into_flutter_app (release mode)",
       "request": "launch",
       "type": "dart",
-      "program": "lib/main_staging.dart",
-      "args": [
-        "--flavor",
-        "staging",
-        "--target",
-        "lib/main_staging.dart"
-      ],
-      "flutterMode": "debug"
-    },
-    {
-      "name": "STG | RELEASE",
-      "request": "launch",
-      "type": "dart",
-      "program": "lib/main_staging.dart",
-      "args": [
-        "--flavor",
-        "staging",
-        "--target",
-        "lib/main_staging.dart"
-      ],
       "flutterMode": "release"
-    },
-    {
-      "name": "STG | PROFILE",
-      "request": "launch",
-      "type": "dart",
-      "program": "lib/main_staging.dart",
-      "args": [
-        "--flavor",
-        "staging",
-        "--target",
-        "lib/main_staging.dart"
-      ],
-      "flutterMode": "profile"
-    },
-    {
-      "name": "PROD | DEBUG",
-      "request": "launch",
-      "type": "dart",
-      "program": "lib/main_production.dart",
-      "args": [
-        "--flavor",
-        "production",
-        "--target",
-        "lib/main_production.dart"
-      ],
-      "flutterMode": "debug"
-    },
-    {
-      "name": "PROD | RELEASE",
-      "request": "launch",
-      "type": "dart",
-      "program": "lib/main_production.dart",
-      "args": [
-        "--flavor",
-        "production",
-        "--target",
-        "lib/main_production.dart"
-      ],
-      "flutterMode": "release"
-    },
-    {
-      "name": "PROD | PROFILE",
-      "request": "launch",
-      "type": "dart",
-      "program": "lib/main_production.dart",
-      "args": [
-        "--flavor",
-        "production",
-        "--target",
-        "lib/main_production.dart"
-      ],
-      "flutterMode": "profile"
-    },
+    }
   ]
 }
